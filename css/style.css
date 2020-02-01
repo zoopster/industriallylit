@@ -1,8 +1,9 @@
 html, body {
-  background:url('../img/bg.jpg') center center no-repeat;
   height: 100%;
   background-size: cover;
 }
+.subtle-gray-gradient { background: -webkit-linear-gradient(360deg, #dee1e1 10%, #f4f4f4 360%); /* Chrome 10+, Saf5.1+ */ background: -moz-linear-gradient(360deg, #dee1e1 10%, #f4f4f4 360%); /* FF3.6+ */ background: linear-gradient(360deg, #dee1e1 10%, #f4f4f4 360%); /* W3C */ }
+
 #logo img {
     margin:0 auto !important;
     padding-top:20px;
